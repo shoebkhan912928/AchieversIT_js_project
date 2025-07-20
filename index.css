@@ -25,10 +25,15 @@ header {
   font-size: 20px;
   color: white;
 }
+.logoiyperlink{
+  text-decoration: none;
+  color: white !important;
+}
 
 .logo {
   font-weight: bold;
   color: white;
+  /* text-decoration: none !important; */
 }
 
 .menu-toggle {
@@ -451,5 +456,10 @@ main {
   .categories,
   .meals-section {
     grid-template-columns: 1fr;
+  }
+}
+@media  (max-width:322px){
+  .category-card img{
+    width: 200px !important;
   }
 }
