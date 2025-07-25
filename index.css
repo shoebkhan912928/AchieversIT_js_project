@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
 .head_para{
   color: white;
 }
@@ -440,7 +444,7 @@ main {
 
 @media (max-width: 480px) {
   .search-box input {
-    width: 90%;
+    /* width: 40%; */
   }
 
   .meal-card,
@@ -448,6 +452,7 @@ main {
   .meal-details,
   .meal-img img {
     width: 100%;
+    
   }
 
   .meal-info h3,
@@ -465,6 +470,10 @@ main {
   .meals-section {
     grid-template-columns: 1fr;
   }
+  .meal-img img{
+    height: auto !important;
+  }
+
 }
 @media  (max-width:322px){
   .category-card img{
