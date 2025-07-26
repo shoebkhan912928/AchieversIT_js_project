@@ -423,7 +423,7 @@ main {
 
 .measure-list li {
   list-style: none;
-  background: #fff;
+  background:white;
   padding: 8px 12px;
   border-radius: 5px;
 }
