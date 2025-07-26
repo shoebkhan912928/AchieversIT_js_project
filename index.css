@@ -469,10 +469,10 @@ main {
     padding: 0 !important;
   }
   .meal-info{
-    min-width: 400px !important;
+    min-width: 100% !important;
   }
   .ingredients-box{
-    width: 78% !important;
+    width: 100% !important;
     margin-right: 30px;
     /* padding-right: 60px !important; */
   }
